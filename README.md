@@ -111,8 +111,9 @@ To access the DB server within AWS, we need a virtual server (EC2 instance) that
    - **Name**:[Server-name]
    - **OS**: Ubuntu
    - **Instance Type**: Used free tier (t3.micro)
-   - **Create Key Pair**
+   - **Create Key Pair for ssh connection**
    <img src="./images/ec2.png" alt="Alt text" width="800">
+   
    - **Network Settings**: Select the VPC which is used for DB server and check SSH, HTTPS, and HTTP
    <img src="./images/ec3.png" alt="Alt text" width="800">
    - **Save Instance**
