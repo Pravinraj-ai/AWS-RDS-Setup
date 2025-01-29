@@ -63,18 +63,17 @@ Creating a Custom VPC security group for DB-server to access it publicly. Change
 2. Select the VPC where the DB is created
 <img src="./images/sg2.png" alt="Alt text" width="800">
 
-3. Change the Inbound and Outbound rules
+3. Change the Inbound and Outbound rules and save it
 <img src="./images/sg3.png" alt="Alt text" width="800">
 
-4. Navigate : RDS -> Databases -> Modify DB Instance: de-practice
+4. Navigate : RDS -> Databases -> Modify DB Instance: db-practice
    - Remove Default Security Group
    - Check the newly created Security Group
    - Save
 
 <img src="./images/sg5.png" alt="Alt text" width="800">
 
-5. Go to DB instance and change the Security Group
-6. Go to MySQL Workbench and connect again
+5. Go to MySQL Workbench and connect again
 
 <img src="./images/sql1.png" alt="Alt text" width="800">
 <img src="./images/sql2.png" alt="Alt text" width="800">
