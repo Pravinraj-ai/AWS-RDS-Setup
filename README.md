@@ -143,3 +143,5 @@ Established successful connection with DB server
 
 <img src="./images/ec7.png" width="150" >
 
+<h1 style="text-align: center;">நன்றி வணக்கம் 🙏</h1>
+
